@@ -20,11 +20,11 @@ request - Search Videos Form Pdisk_Db
 ### Deploy to Heroku
 Click Below Button to Deploy to Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Manjeetxtyy/pdiskmoviesearchnew)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/umang169/PdiskSerchBot)
 
 ### Deploy Locally
 ```shell
-git clone https://github.com/Manjeetxtyy/pdisksearch
+git clone https://github.com/umang169/PdiskSerchBot
 cd PDisk-Videos-Search
 pip3 install -r "requirements.txt"
 # Set Configs in "configs.env" file
