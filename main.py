@@ -49,24 +49,24 @@ PDiskBot = Client(
 
 @PDiskBot.on_message(filters.command("start") & ~filters.edited)
 async def start_handler(_, m: Message):
-    await m.reply_text("Hi, Welcome!🔥\n\nSearch🔍\nPlay▶️\nEnjoy😀\n\nMade By @Ragnar032\nJoin @Backup_Hub", quote=True)
+    await m.reply_text("Hi, Welcome!🔥\n\nSearch🔍\nPlay▶️\nEnjoy😀\n\nMade By @Ragnar032\nJoin @BackupMovie_Hub", quote=True)
 
 
 @PDiskBot.on_message(filters.text & ~filters.edited)
 async def text_handler(_, m: Message):
     if len(m.text) < 2:
         return await m.reply_text("Search Query Missing!")
-    editable = await m.reply_text("Searching...🔍\nPlease Wait\n\nJoin @Backup_Hub", quote=True)
+    editable = await m.reply_text("Searching...🔍\nPlease Wait\n\nJoin @BackupMovie_Hub", quote=True)
     response = await search_pdisk_videos(m.text.split(" ", 1)[-1], Configs.PDISK_USERNAME, Configs.PDISK_PASSWORD)
     if isinstance(response, Exception):
         traceback.print_exc()
         try: await editable.edit("Failed to search!",
                                  reply_markup=InlineKeyboardMarkup([
-                                     [InlineKeyboardButton("Backup Channel", url="https://t.me/Backup_Hub")]
+                                     [InlineKeyboardButton("Backup Channel", url="https://t.me/BackupMovie_Hub")]
                                  ]))
         except MessageNotModified: pass
     elif not response["data"]["list"]:
-        try: await editable.edit("Not Found!❗\n\nJoin @Backup_Hub\n\nREQUEST HERE - https://t.me/joinchat/8bAnWLIym8w1YzQ1")
+        try: await editable.edit("Not Found!❗\n\nJoin @BackupMovie_Hub\n\nREQUEST HERE - https://t.me/joinchat/wN6M5wPGMm45MDNl")
         except MessageNotModified: pass
     else:
         data = response["data"]["list"]
