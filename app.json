@@ -9,9 +9,9 @@
         "videos",
         "search"
     ],
-    "repository": "https://github.com/Manjeetxtyy/pdiskmoviesearchnew",
-    "website": "https://github.com/Manjeetxtyy/pdiskmoviesearchnew",
-    "success_url": "https://github.com/Manjeetxtyy/pdiskmoviesearchnew",
+    "repository": "https://github.com/umang169/PdiskSerchBot",
+    "website": "https://github.com/umang169/PdiskSerchBot",
+    "success_url": "https://github.com/umang169/PdiskSerchBot",
     "env": {
         "API_ID": {
             "description": "Get from https://t.me/TeleORG_Bot",
