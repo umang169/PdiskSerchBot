@@ -26,7 +26,7 @@
         "BOT_TOKEN": {
             "description": "Get from https://t.me/BotFather",
             "required": true,
-            "value": "2119257155:AAHvVbU5QzxRE9-6slRe0dvnZifJh2y1lFA"
+            "value": "2015515730:AAGxM43E4KKagT8Hn3viv4XT3DoRcZJBJm8"
         },
         "PDISK_USERNAME": {
             "description": "Your PDisk Account Username/Email",
