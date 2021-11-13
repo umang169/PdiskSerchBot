@@ -16,27 +16,27 @@
         "API_ID": {
             "description": "Get from https://t.me/TeleORG_Bot",
             "required": true,
-            "value": "3310601"
+            "value": "8915276"
         },
         "API_HASH": {
             "description": "Get from https://t.me/TeleORG_Bot",
             "required": true,
-            "value": "ad2c76a95f2f3decb60024bb918d20c6"
+            "value": "73611cfa5e866a359b325ececf4eb1ca"
         },
         "BOT_TOKEN": {
             "description": "Get from https://t.me/BotFather",
             "required": true,
-            "value": "2083284761:AAH74l0rwBiDKGW4J5TzeFRCsAaxVewLcCQ"
+            "value": "2119257155:AAHvVbU5QzxRE9-6slRe0dvnZifJh2y1lFA"
         },
         "PDISK_USERNAME": {
             "description": "Your PDisk Account Username/Email",
             "required": true,
-            "value": "Manjeetxtyy"
+            "value": "Gargumang"
         },
         "PDISK_PASSWORD": {
             "description": "Your PDisk Account Password",
             "required": true,
-            "value": "null"
+            "value": ""
         },
         "MAX_RESULTS": {
             "description": "Max Search Results Number",
