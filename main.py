@@ -49,7 +49,7 @@ PDiskBot = Client(
 
 @PDiskBot.on_message(filters.command("start") & ~filters.edited)
 async def start_handler(_, m: Message):
-    await m.reply_text("Hi, Welcome!🔥\n\nSearch🔍\nPlay▶️\nEnjoy😀\n\nMade By @Ragnar032\nJoin @BackupMovie_Hub", quote=True)
+    await m.reply_text("Hi, Welcome!🔥\n\nSearch🔍\nPlay▶️\nEnjoy😀\n\nMade By @MovieHub_Admin\nJoin @BackupMovie_Hub", quote=True)
 
 
 @PDiskBot.on_message(filters.text & ~filters.edited)
